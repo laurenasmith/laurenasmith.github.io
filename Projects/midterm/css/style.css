@@ -1,0 +1,85 @@
+body{
+    font-family: "Rubik", sans-serif;
+    background-color: #0C0E0C;
+    color: #FAFCEF;
+    font-size: 14px;
+    
+}
+
+header img{
+    width: 100%;
+}
+
+h1{
+    font-family: "Italiana", sans-serif;
+    font-size: 6em;
+}
+
+h2{
+    font-family: "Abel", sans-serif;
+    font-size: 1em;
+    
+}
+
+h3{
+    font-family: "Abel", sans-serif;
+}
+
+img{
+    background: #F9F1E5;
+    color: #0C0E0C
+}
+
+section img{
+    width:100%
+}
+
+
+a{
+    color: #e18d58;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(768px){
+    h1{
+        font-size: 3em;
+    }
+    .container{
+        width:95%
+    }
+}
+
+footer{
+    text-align: center;
+}
+
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
