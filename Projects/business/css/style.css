@@ -3,19 +3,26 @@ body{
     font-family: "Cinzel Decorative", serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: darkgoldenrod;
+    background-color:  #dfbc94;
 }
 
 h1{
     font-size: 3em;
+    text-align: center;
+}
+
+h2{
+  text-align: center;
 }
 header{
     font-size: 2em;
+    background-color: #BB6830;
+    width: 100%
 }
 
 header img{
-    width: 50%
-    margin:auto
+    width: 100%
+
 }
 
 .cinzel-decorative-regular {
@@ -42,4 +49,10 @@ foooter{
 
 div{
     padding: 10px 20px 20px 20px;
+}
+
+.nav{
+  font-family: "Cinzel Decorative", serif;
+  font-style: normal;
+  color: #191C0E;
 }

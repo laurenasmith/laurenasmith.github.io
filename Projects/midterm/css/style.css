@@ -23,17 +23,20 @@ h2{
 
 h3{
     font-family: "Abel", sans-serif;
+    text-align: center;
+    color: #0C0E0C;
 }
 
 img{
     background: #F9F1E5;
     color: #0C0E0C
+    
 }
 
-section img{
-    width:100%
-}
 
+.heading{
+  color: #FAFCEF;
+}
 
 a{
     color: #e18d58;
@@ -51,18 +54,17 @@ header {
     transform: translate(-50%, -50%);
 }
 
-@media(768px){
+@media (max-width: 768px) {
     h1{
         font-size: 3em;
     }
     .container{
         width:95%
     }
+    
 }
 
-footer{
-    text-align: center;
-}
+
 
 
 .rubik {
@@ -83,3 +85,74 @@ footer{
   font-weight: 400;
   font-style: normal;
 }
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  background-color: beige;
+ text-align: right;
+}
+
+.image-container img {
+  display: block;
+  width: 75%;
+  height: auto;
+  background-color: beige;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #F9F1E5;
+  text-align: right
+; 
+  color:#0C0E0C; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: right;}
+
+  .intro{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+background-color: #0C0E0C;
+color: #FAFCEF;
+
+  }
+
+  footer{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: justify; 
+  }
+
+  .middle{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: justify;
+    background-color: #0C0E0C; 
+    color: #FAFCEF;
+  }
+
+  .outro{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: justify;
+    background-color: #0C0E0C;
+    color: #FAFCEF;
+  }
+
+  .graphics{
+    color: #0C0E0C;
+    justify-content: right;
+    
+  }
