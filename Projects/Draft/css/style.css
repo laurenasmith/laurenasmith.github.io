@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefaf6;
+  color: #222;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
