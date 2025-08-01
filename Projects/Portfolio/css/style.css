@@ -1,0 +1,45 @@
+body {
+  font-family: "Bodoni Moda SC", serif;
+  background-color: #d2b48c;
+  color: #002147;
+}
+
+header{
+    background-color: #002147;
+    color: #d2b48c;
+}
+
+nav a {
+  color: #452815;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+img {
+  max-width: 50%;
+  height:fit-content;
+  border: 1px solid #ddd;
+}
+
+.bodoni-moda-sc- {
+  font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
