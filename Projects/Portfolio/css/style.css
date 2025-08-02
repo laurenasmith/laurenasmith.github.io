@@ -6,33 +6,38 @@ body {
 
 header{
     background-color: #002147;
-    color: #d2b48c;
+    color:#d2b48c;
+    height: 50px;
 }
 
-nav a {
-  color: #452815;
+nav{
+  color:#d2b48c;
   text-decoration: none;
   font-weight: 500;
 }
 
-nav a:hover {
+nav a:link {
   text-decoration: underline;
+  font-size: large;
+  color:#d2b48c
 }
 
-h1, h2 {
-  font-weight: bold;
+nav a:visited{
+  color:#d2b48c
 }
+
 
 img {
   max-width: 50%;
   height:fit-content;
   border: 1px solid #ddd;
+  
 }
 
 .bodoni-moda-sc- {
   font-family: "Bodoni Moda SC", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -42,4 +47,42 @@ ul {
 
 ul li {
   margin-bottom: 1rem;
+}
+
+#nav a:link{
+
+    color:#d2b48c
+
+}
+
+#clips a:link{
+  color: #3c5070;
+  font-size: large;
+}
+
+#clips a:visited{
+  color: #3c5070;
+  font-size: large;
+}
+
+.iframe{
+  max-width: 25%;
+  height:fit-content;
+}
+
+#contact a:link{
+  color:#3c5070
+}
+
+#contact a:visited{
+  color: #3c5070;
+  font-size: large;
+}
+
+.contact{
+  text-align: center;
+}
+
+p{
+  font-size: large;
 }
