@@ -26,10 +26,11 @@ nav a:visited{
   color:#d2b48c
 }
 
-h1, h2,{
+h1{
   font-weight: bold;
   font-size: large;
 }
+
 
 img {
   max-width: 50%;
